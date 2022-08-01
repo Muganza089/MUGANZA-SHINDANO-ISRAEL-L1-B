@@ -1,0 +1,174 @@
+body
+{
+    /* Police de toute la page*/
+	font-family: Sans-serif;
+}
+
+
+
+
+
+.monentete /* L'entete du site*/
+{	
+	height: 120px;
+	background: url('header.jpg'); /* image de l'entete du site*/
+	border-radius: 10px/7px;
+	box-shadow: 1px 6px 12px black;
+	
+}
+h1
+{	
+		height: 40px;
+		margin-left: 10px;
+		margin-top: -100px;
+		position:relative;
+		top: 40px;
+
+
+}
+article
+{
+	height: 34px;
+	width: 150px;
+	display: inline-block;
+	float: left;
+	border: solid;
+	border-radius: : 10px ;	
+}
+
+.bouton1
+{
+		
+		background:orange;
+		margin-left: 800px;
+		width: 130px;
+		height: 40px;
+		margin-left: 950px;
+		color: white;
+		margin-top: 10px;
+		position:relative;
+		top: 40px;
+		border-color:white;
+		border-top:none;
+		border-left:none;
+		border-right: none;
+}
+.bouton1:hover
+{
+	transition-property: all;
+	transition: transform 450ms, background-color 300ms;
+	background : rgba(1,28,55,0);
+	transform : scale(1.15);
+	border-bottom-color:white;
+}
+.bouton2
+{
+		
+		width: 130px;
+		background-color: orange;
+		height: 40px;
+		border-top:none;
+		border-left:none;
+		border-right: none;
+		margin-left: 800px;
+		color: white;
+		border-bottom-color:white;
+}
+.bouton2:hover
+{
+	transition-property: all;
+	transition: transform 450ms, background-color 300ms;
+	background : rgba(1,28,55,0);
+	transform : scale(1.15);
+	border-bottom-color:white;
+}
+.auteur1
+{	
+	margin-top: 20px;
+	padding-top:5px;
+	margin-left: 500px;
+	border-radius: 10px;
+	background: orange;
+	width: 250px;
+	text-align: justify;
+	position :relative;
+
+}
+.auteur1:hover
+{	
+	
+	
+	transition-property: transform;
+	/* La transition durera trois secondes. */
+	transition-duration: 600ms;
+	box-shadow: 1px 1px 10px;
+	transform : scale(1.20);
+	}
+.auteur2
+	{
+		width: 120px;
+		height: 100;
+		border-radius: 150px;
+		background-color: #FFFFFF;
+		position: relative;
+		left: 60px;
+		
+	}
+
+.apropos/* section  parcours scolaire*/
+{
+	margin-top: 50px;
+	position:absolute;
+	height: 400px;
+	width: 400px;
+	display: inline-block;
+	margin-left: 200px;
+	border-radius: 10px ;
+	background-color:white;
+	padding-left: 20px;
+	
+	
+}
+.skills/* Section compétences*/
+{
+	margin-top: 50px;
+	position:absolute;
+	height: 400px;
+	width: 400px;
+	margin-left: 700px;
+	display: inline-block;
+	border-radius: 10px ;
+	background-color:white;
+	padding-left: 20px;
+
+	
+	
+
+}
+.apropos:hover,.skills:hover
+{
+	transition-property: color, width, height;
+	/* La transition durera trois secondes. */
+	transition-duration: 3s;
+	box-shadow: 1px 6px 12px black;
+}
+footer
+{
+	margin-top: 500px;
+	position: relative;
+	margin-left: 1200px;
+	width: 50px;
+	height: 25px;
+	margin-top: 100px;
+}
+.dimension_logo /* Logo facebook , appel , whatsapp*/
+{
+	width: 100px;
+	height: 100px;
+}
+.dimension_logo:hover
+{
+	transition-property: all;
+	transition: transform 450ms;
+	transform : scale(1.5);
+}
